@@ -128,3 +128,75 @@ p{
 .a-rodar-imagen{
     transform: translate(-50%, -50%)
 }
+
+.texto{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.iconos-skills i{
+    margin: 1rem;
+}
+
+#html-icon{
+    color: orange;
+}
+
+#css-icon{
+    color: blue;
+}
+
+#js-icon{
+    color: #F7DF1E;
+}
+
+#react-icon{
+    color: #61dafb;
+}
+
+#node-icon{
+    color: lightgreen;
+}
+
+#bootstrap-icon{
+    color: purple;
+}
+
+#git-icon{
+    color: orange;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes spin {
+    0%{
+        top: 120%;
+        left: 100%;
+    }
+
+    25%{
+        top: 80%;
+        left: 50%;
+    }
+    50%{
+        top: 90%;
+        left: 0%;
+    }
+    75%{
+        left: 50%;
+    }
+    100%{
+        top: 120%;
+        left: 100%;
+    }
+}
