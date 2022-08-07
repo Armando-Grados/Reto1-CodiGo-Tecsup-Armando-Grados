@@ -44,3 +44,87 @@ nav a{
     text-decoration: underline;
     font-size: 1.1rem;
 }
+
+.home,.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.descripcion{
+    max-width: 800px;
+    margin: 1rem auto;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+#nombre{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#soy{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.descripcion span{
+    color: lightgreen;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.descripcion p{
+    font-size: 1.5rem;
+}
+
+#find-me-best-skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-linkedin{
+    color: #0A66C2;
+}
+
+
+.icons img:hover{
+    animation-name: fadeIn;
+    animation-duration: 2s; 
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.iconos{
+    margin: 0.3rem 2rem 0.3rem 0rem;
+}
+
+.imagen-1{
+    position: relative;
+    padding: 1rem;
+    background-color: gray;
+    border: 0.5rem solid;
+    border-radius: 1rem;
+}
+
+.a-rodar-box{
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    margin: 0;
+    animation: spin 10s linear 0s infinite normal none running;
+}
+
+#banner{
+    border-radius: 1rem;
+    box-shadow: 1rem 1.7rem;
+}
+.a-rodar-imagen{
+    transform: translate(-50%, -50%)
+}
