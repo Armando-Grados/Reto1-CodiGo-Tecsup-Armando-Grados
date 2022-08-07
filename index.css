@@ -200,3 +200,24 @@ p{
         left: 100%;
     }
 }
+
+.about,.skills{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    margin: 1rem 4rem;
+}
+
+#mi-foto {
+    border-radius: 15px;
+    box-shadow: 1rem 1.5rem;
+}
+
+.mibox-2{
+    margin-top: 2.5rem;
+    max-width: 1000px;
+}
