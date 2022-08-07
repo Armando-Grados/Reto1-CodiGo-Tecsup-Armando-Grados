@@ -221,3 +221,91 @@ p{
     margin-top: 2.5rem;
     max-width: 1000px;
 }
+
+
+@media (min-width: 768px) {
+    nav{
+        margin: 1rem auto;
+        max-width: 1400px;
+    }
+    .nav-der a{
+        font-size: 1.5rem;
+        margin: auto 1rem;
+    }
+    
+
+    .nav-der a:hover{
+        font-size: 2rem;
+    }
+
+    .home{
+        margin: 2rem auto;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #nombre{
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 60px;
+        line-height: 30px;
+        font-weight: bold;
+    }
+    
+    #soy{
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        line-height: 50px;
+        font-weight: bold;
+    }
+    
+    
+    .descripcion{
+        color: black;
+        font-family: Poppins, sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 2.5rem;
+        margin: 4rem auto;
+    }
+
+    .descripcion span{
+        font-size: 3.5rem;
+    }
+    
+    .home-desc{
+        font-size: 1.5rem;
+    }
+
+    #find-me-best-skills{
+        justify-content: flex-start;
+    }
+
+    .icons{
+        margin-right: 4rem;
+    }
+    
+    .find-best-letters{
+        color: black;
+        font-family: Poppins, sans-serif;
+        font-size: 1.4rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        opacity: 0.8;
+    }
+
+    .skills i{
+        margin: 0.5rem 4rem;
+    }
+
+    #sobre-mi{
+        display: flex;
+        justify-content: center;
+    }
+
+    .about{
+        margin: 4rem auto;
+    }
+
+}
